@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Dosis|Exo+2|Josefin+Sans|Kumar+One|Playfair+Display|Varela+Round');
+*{padding:0; margin:0; box-sizing:border-box;}
+
+body{
+  height:1990px;
+  background: #eee;
+}
+.con{width:85%; margin:auto;}
+.clear{clear:both;}
+
+.main-header{
+/*   background-image:url("http://patterncooler.com/gen/index/w/tear_drop_spin_pattern-523.jpg"); */
+/*  http://more-sky.com/data/out/7/IMG_201815.jpg  */
+  background-image:url("https://s-media-cache-ak0.pinimg.com/originals/ce/58/96/ce5896a00ab803e535c93f50e2cfd331.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  height:30%;
+  width:100%;
+/*   overflow:hidden; */
+}
+.main-header h1 {
+  text-align:center;
+  color:#fff;
+  font-size:230px;
+  padding:10% 0 0 0;
+  width:100%;
+  font-size:1040%;
+  font-family: 'Playfair Display', serif;
+  
+    text-shadow:1px 1px 3px #222,
+              2px -2px 3px #111;
+
+}
+.main-header h1 span{
+  z-index: 1;
+  position: relative;
+  top:-10px;
+  left:0;
+  font-size:110%;
+  text-shadow:1px 1px 3px #222,
+              2px -2px 3px #111;
+}
+.main-header img{
+  border-radius:100em;
+  width:500px;
+  height:500px;
+  margin-left:25%;
+  display:inline-block;
+  
+  box-shadow:2px 2px 10px #222,
+             -2px -2px 10px #060633;
+  
+ position: relative; 
+   top: -120px; 
+   left: 20px; 
+}
+/* end header */
+
+/* start navBar */
+nav {
+/*   box-shadow: 1px 3px 5px #222; */
+  color:black;
+  font-size:20px;
+/*   border-radius:0 0 13px 13px; */
+  text-align:center;
+/*    position:fixed;  */
+  font-family: 'Dosis', sans-serif;
+
+}
+nav ul{
+  display:inline-block;
+  float:left;
+}
+nav .ul-right{float:right;}
+nav ul li {
+  list-style-type:none;
+  float:left;
+  padding:20px;
+  transition:.3s;
+}
+ ul li:hover{cursor:pointer; transition:.3s; text-decoration:underline;}
+
+/* End NavBar */
+/* Start Main */
+main{
+  position:relative;
+  top:2.7em;
+  left:;
+  text-align:center;
+  font-family: 'Playfair Display', serif;
+}
+main h2{ font-size:11em;}
+main p{  font-size:20px;  }
+main p span {background-color:#000;color:#fff;padding:3px;border-radius:3px;}
+/* End Main */
+/* Start Article Post */
+article .post {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  height: 450px;
+  width: 300px;
+  margin:15px;
+
+  position: relative;
+  top:100px;
+  left:7%;
+  overflow:hidden;
+  font-family: 'Dosis', sans-serif;
+}
+article  h3{
+  position:relative;
+  top:55px;
+  left:0;
+  text-align:center;
+  padding-top:100px;
+  transition:.5s;
+  font-size:85px;
+  font-family: 'Playfair Display', serif;
+   text-shadow: -3px 3px 5px; 
+
+}
+article h3:hover{text-shadow: -5px -5px 5px ;cursor:pointer; }
+article .post:hover{
+  box-shadow: -3px 8px 6px -6px black,
+                        1px -8px -6px -6px black;
+}
+article .post .con2{width:100%;padding:1px;}
+article .post .con2 i{padding:10px 10px 0 7px; letter-spacing:1px; transition:.5s;}
+article .post .con2 i:hover{cursor:pointer;transform: scale(1.2);}
+article .post img{ 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  height: 300px;
+  width: 300px;
+  transition:.5s;
+  overflow:hidden;
+}
+article .post0 img:hover{ transform: rotate(-15deg);}
+article .post1 img:hover{ transform: skew(20deg, 10deg);}
+article .post2 img:hover{ opacity: 0.75;}
+article .post3 img:hover{ border-radius: 100px 200px;}
+article .post4 img:hover{ transform: scale(0.5);}
+article .post5 img:hover{ transform: scale(1.5);}
+article .post h4{
+  padding:7px 0 5px 7px;
+  transition:.5s;
+  font-size:20px;
+}
+article .post h4:hover{color:#fff; background-color:#000; cursor:pointer;}
+article .post p {
+  padding:3px 0 0 7px;
+  height:15%;
+  overflow:hidden;
+}
+/* The button */
+button{
+  float:right;
+  padding:7px;
+  width:35%;
+  background-color:black; color:#fff;
+  border-right:2px solid #000;
+  border-left:2px solid #000;
+  border-radius:2px;
+
+  transition:.5s;
+  position: relative;
+  top:5px;
+  left:-7px;
+  outline:none;
+  border:none;
+}
+button:hover{
+  background-color:transparent;
+  color:#000;
+  cursor:pointer;
+  border-right:2px solid #000;
+  border-left:2px solid #000;
+}
+
+/* End Article */
+/* Start Skills */
+.skills{
+  position:relative;
+  top:200px;
+  left:0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding-bottom:50px
+  
+}
+.skills h3{
+  text-align:center;
+  padding-top:10px;
+  transition:.5s;
+  font-size:85px;
+  font-family: 'Playfair Display', serif;
+}
+.skills .skill{
+/*   background-color:#fff; */
+  padding:5px;
+  overflow:hidden;
+  font-family: 'Dosis', sans-serif;
+    font-size:20px;
+}
+.skills .skill label{display:block;padding:10px 0 10px 0}
+.skills .skill span{
+  background:#000;
+  color:#fff;
+  width:200px;
+  padding:5px 0 5px 0;
+  border-radius:3px;
+}
+.skills .html span{ padding-left:70%;}
+.skills .css span{ padding-left:80%;}
+.skills .linux span { padding-left:60%;}
+.skills .ccna span { padding-left:50%;}
+/* End Skills */
+/* Start Contact form */
+.main-form{
+  position:relative;
+  top:17em;
+  left:0;
+
+}
+ input {
+  display:inline;
+  width:49.3%;
+  margin-top:2%;
+  margin-bottom:2%;
+  padding: 15px;
+  
+  background-color: #fff;
+  color:#000;
+  font-family:Inconsolata;
+  font-size: 20px;
+  font-family: 'Abel', sans-serif;
+  
+  outline:none;
+  border-radius: 3px;
+  border-top:none;
+  transition:.5s;
+   
+    border-top: 2px solid transparent;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+ .main-form input:hover {
+   border-top: 2px solid #000;/*transparent*/;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    color: #000;
+}
+.main-form  input:focus{
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+
+}
+
+
+.main-form form textarea {
+  color:#000;
+    font-size:30px;
+    width: 99%;
+    height: 20%px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    resize: none;
+    display: inline-block;
+    outline:0;
+  font-family: 'Abel', sans-serif;
+    border-top: 2px solid transparent;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.main-form [type="submit"] {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    
+}
+.main-form button[type="submit"]:hover {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: none;
+    border-bottom: none;
+    transition: .5s;
+    cursor: pointer;
+    outline: 0;
+}
+.main-form   h3{
+  text-align:center;
+  padding:10px 0 50px 0;
+  transition:.5s;
+  font-size:85px;
+  font-family: 'Playfair Display', serif;
+}
+/* End Contact main Form */
+/* Start Footer */
+footer{
+  position:relative;
+  top:300px;
+  left:;
+  padding:10px;
+  background-color:#000;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.7;
+  font-family: 'Abel', sans-serif;
+  
+}
+a,
+a:link,
+a:active,
+a:visited,
+a:hover {
+      color: #fff;
+    text-decoration: none;
+  transition: .5s;
+}
+footer p{color:#fff;}
+a:hover {text-decoration: underline;}
+footer span{color:red;}
+h3:hover{ text-shadow: -3px 2px 4px;cursor:pointer; }
